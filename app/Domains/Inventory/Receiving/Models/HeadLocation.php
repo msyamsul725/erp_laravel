@@ -16,4 +16,8 @@ class HeadLocation extends Model
         'max_lantai',
         'max_rak',
     ];
+    public function locations()
+    {
+        return $this->hasMany(Location::class, 'head_location_id');
+    }
 }

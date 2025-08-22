@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="space-y-6">
-        <livewire:inventory.receiving.report />
+        <livewire:inventory.receiving.report.report />
     </div>
 @endsection
